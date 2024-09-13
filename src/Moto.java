@@ -1,9 +1,8 @@
 public class Moto extends Veiculo {
     private int cilindradas;
 
-  
     public Moto(String marca, String modelo, int ano, int cilindradas) {
-        super(marca, modelo, ano, "Moto");  
+        super(marca, modelo, ano, "Moto");
         this.cilindradas = cilindradas;
     }
 
@@ -11,7 +10,6 @@ public class Moto extends Veiculo {
         System.out.println("Cilindradas: " + cilindradas);
     }
 
-    
     @Override
     public void ligar() {
         System.out.println("A moto está ligada.");

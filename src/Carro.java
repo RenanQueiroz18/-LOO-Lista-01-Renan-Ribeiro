@@ -1,8 +1,7 @@
 public class Carro extends Veiculo {
 
-    
     public Carro(String marca, String modelo, int ano) {
-        super(marca, modelo, ano, "Carro");  // Chama o construtor da classe Veiculo
+        super(marca, modelo, ano, "Carro");
     }
 
     @Override
